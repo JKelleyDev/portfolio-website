@@ -1,0 +1,83 @@
+/* Global */
+.app {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #4A90E2;
+    color: white;
+  }
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .header h1 {
+    margin: 10px 0;
+  }
+  .header p {
+    font-size: 1.2em;
+    color: #F5F5F5;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  h2 {
+    color: #4A90E2;
+    margin-bottom: 20px;
+  }
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .skills li {
+    background-color: #666666;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .project {
+    margin-bottom: 20px;
+  }
+  .contact a {
+    color: #4A90E2;
+    text-decoration: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      padding: 30px 10px;
+    }
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+    }
+    .header h1 {
+      font-size: 1.5em;
+    }
+    .header p {
+      font-size: 1em;
+    }
+    section {
+      padding: 20px 10px;
+    }
+    .skills ul {
+      flex-direction: column;
+    }
+  }
