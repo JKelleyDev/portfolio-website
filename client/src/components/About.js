@@ -1,10 +1,9 @@
 import React from 'react';
-import '../styles/header.css';
+import '../styles/about.css';
 const About = () => (
   <section className="about" id="about">
     <h2 className="about-title">About Me</h2>
     <div className="about-content">
-      <img src="/IMG_6372.jpeg" alt="Jordan Kelley" className="personal-photo" />
       <div className="about-text">
         <p>
           Hello! I’m Jordan Kelley, a passionate Software Engineering student and developer with a focus on creating innovative, user-friendly solutions. 

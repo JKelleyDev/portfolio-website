@@ -8,8 +8,8 @@
   .nav-bar {
     position: fixed;
     top: 0;
-    width: 100%;
-    background: rgba(26, 42, 68, 0.9); /* Slightly transparent navy */
+    width: stretch;
+    background: #244855; /* Slightly transparent navy */
     z-index: 1000;
   }
   
