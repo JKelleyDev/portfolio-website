@@ -1,0 +1,48 @@
+.about {
+    padding: 4rem 0;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .personal-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(50%);
+    transition: all 0.4s ease;
+    box-shadow: var(--shadow);
+  }
+  
+  .personal-photo:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .personal-photo {
+      width: 150px;
+      height: 150px;
+    }
+  }

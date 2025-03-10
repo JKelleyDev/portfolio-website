@@ -1,0 +1,41 @@
+.contact {
+    padding: 4rem 0;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-details {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-item {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .contact-label {
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+  
+  .contact-link {
+    color: white;
+  }
+  
+  .contact-link:hover {
+    color: var(--accent-color);
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .contact {
+      padding: 2rem 0;
+    }
+  }
